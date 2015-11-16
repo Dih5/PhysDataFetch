@@ -1,0 +1,461 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15834,        451]
+NotebookOptionsPosition[     13428,        375]
+NotebookOutlinePosition[     15063,        422]
+CellTagsIndexPosition[     14978,        417]
+WindowTitle->TableFormed - Wolfram Mathematica
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 0}}],
+
+Cell[TextData[{
+ ButtonBox["Mathematica",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:PhysDataFetch/guide/PhysDataFetch"],
+ StyleBox[" > ", "LinkTrailSeparator"]
+}], "LinkTrail"],
+
+Cell[BoxData[GridBox[{
+   {Cell["PHYSDATAFETCH PACLET SYMBOL", "PacletNameCell"], Cell[TextData[Cell[
+    BoxData[
+     ActionMenuBox[
+      FrameBox["\<\"URL \[RightGuillemet]\"\>",
+       StripOnInput->False], {"\<\"PhysDataFetch/ref/TableFormed\"\>":>
+      None, "\<\"Copy Mathematica url\"\>":>
+      Module[{DocumentationSearch`Private`nb$}, 
+       DocumentationSearch`Private`nb$ = NotebookPut[
+          Notebook[{
+            Cell["PhysDataFetch/ref/TableFormed"]}, Visible -> False]]; 
+       SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+       FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+       NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+      Delimiter, "\<\"Copy web url\"\>":>
+      Module[{DocumentationSearch`Private`nb$}, 
+       DocumentationSearch`Private`nb$ = NotebookPut[
+          Notebook[{
+            Cell[
+             BoxData[
+              MakeBoxes[
+               Hyperlink[
+               "http://reference.wolfram.com/mathematica/PhysDataFetch/ref/\
+TableFormed.html"], StandardForm]], "Input", TextClipboardType -> 
+             "PlainText"]}, Visible -> False]]; 
+       SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+       FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+       NotebookClose[DocumentationSearch`Private`nb$]; 
+       Null], "\<\"Go to web url\"\>":>FrontEndExecute[{
+        NotebookLocate[{
+          URL[
+           StringJoin[
+           "http://reference.wolfram.com/mathematica/", 
+            "PhysDataFetch/ref/TableFormed", ".html"]], None}]}]},
+      Appearance->None,
+      MenuAppearance->Automatic]],
+     LineSpacing->{1.4, 0}]], "AnchorBar"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1],
+
+Cell["TableFormed", "ObjectName",
+ CellID->1224892054],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{"TableFormed", "[", "]"}]], "InlineFormula"],
+     " \[LineSeparator]TableFormed is an option for PhysDataFetch that \
+specifies whether to give data in TableForm or raw."
+    }]]}
+  }]], "Usage",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}}},
+ CellID->982511436],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["EXAMPLES",
+ BaseStyle->None,
+ Appearance->{Automatic, None},
+ Evaluator->None,
+ Method->"Preemptive",
+ ButtonFunction:>(FrontEndExecute[{
+    FrontEnd`SelectionMove[
+     FrontEnd`SelectedNotebook[], All, ButtonCell], 
+    FrontEndToken["OpenCloseGroup"], 
+    FrontEnd`SelectionMove[
+     FrontEnd`SelectedNotebook[], After, 
+     CellContents]}]& )]], "PrimaryExamplesSection",
+ CellTags->"PrimaryExamplesSection",
+ CellID->371212762],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount"]
+}], "ExampleSection",
+ CellID->90744461],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PhysDataFetch`\>\"", "]"}]], "Input",
+ CellLabel->"In[1]:=",
+ CellID->605196085],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XRayData", "[", 
+  RowBox[{"74", ",", 
+   RowBox[{"TableFormed", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellLabel->"In[2]:=",
+ CellID->74918791],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      TagBox["\<\"Energy (MeV)\"\>",
+       HoldForm], 
+      TagBox["\<\"\[Mu]/\[Rho] (\\!\\(\\*SuperscriptBox[\\(cm\\), \
+\\(2\\)]\\)/g)\"\>",
+       HoldForm], 
+      TagBox["\<\"\\!\\(\\*SubscriptBox[\\(\[Mu]\\), \\(en\\)]\\)/\[Rho] (\\!\
+\\(\\*SuperscriptBox[\\(cm\\), \\(2\\)]\\)/g)\"\>",
+       HoldForm]},
+     {"0.001`", "3683.`", "3671.`"},
+     {"0.0015`", "1643.`", "1632.`"},
+     {"0.0018092`", "1108.`", "1097.`"},
+     {"0.0018092`", "1327.`", "1311.`"},
+     {"0.00184014`", "1911.`", "1883.`"},
+     {"0.0018716`", "2901.`", "2853.`"},
+     {"0.0018716`", "3170.`", "3116.`"},
+     {"0.002`", "3922.`", "3853.`"},
+     {"0.002281`", "2828.`", "2781.`"},
+     {"0.002281`", "3279.`", "3226.`"},
+     {"0.0024235`", "2833.`", "2786.`"},
+     {"0.0025749`", "2445.`", "2407.`"},
+     {"0.0025749`", "2599.`", "2558.`"},
+     {"0.00269447`", "2339.`", "2301.`"},
+     {"0.0028196`", "2104.`", "2071.`"},
+     {"0.0028196`", "2194.`", "2160.`"},
+     {"0.003`", "1902.`", "1873.`"},
+     {"0.004`", "956.4`", "940.5`"},
+     {"0.005`", "553.4`", "542.3`"},
+     {"0.006`", "351.4`", "342.8`"},
+     {"0.008`", "170.5`", "164.3`"},
+     {"0.01`", "96.91`", "92.04`"},
+     {"0.0102068`", "92.01`", "87.24`"},
+     {"0.0102068`", "233.4`", "196.6`"},
+     {"0.0108548`", "198.3`", "168.4`"},
+     {"0.011544`", "168.9`", "144.4`"},
+     {"0.011544`", "231.2`", "188.9`"},
+     {"0.0118186`", "226.8`", "179.7`"},
+     {"0.0120998`", "206.5`", "169.9`"},
+     {"0.0120998`", "238.2`", "194.8`"},
+     {"0.015`", "138.9`", "117.2`"},
+     {"0.02`", "65.73`", "56.97`"},
+     {"0.03`", "22.73`", "19.91`"},
+     {"0.04`", "10.67`", "9.24`"},
+     {"0.05`", "5.949`", "5.05`"},
+     {"0.06`", "3.713`", "3.07`"},
+     {"0.069525`", "2.552`", "2.049`"},
+     {"0.069525`", "11.23`", "3.212`"},
+     {"0.08`", "7.81`", "2.879`"},
+     {"0.1`", "4.438`", "2.1`"},
+     {"0.15`", "1.581`", "0.9378`"},
+     {"0.2`", "0.7844`", "0.4913`"},
+     {"0.3`", "0.3238`", "0.1973`"},
+     {"0.4`", "0.1925`", "0.11`"},
+     {"0.5`", "0.1378`", "0.0744`"},
+     {"0.6`", "0.1093`", "0.05673`"},
+     {"0.8`", "0.08066`", "0.04028`"},
+     {"1.`", "0.06618`", "0.03276`"},
+     {"1.25`", "0.05577`", "0.02761`"},
+     {"1.5`", "0.05`", "0.02484`"},
+     {"2.`", "0.04433`", "0.02256`"},
+     {"3.`", "0.04075`", "0.02236`"},
+     {"4.`", "0.04038`", "0.02363`"},
+     {"5.`", "0.04103`", "0.0251`"},
+     {"6.`", "0.0421`", "0.02649`"},
+     {"8.`", "0.04472`", "0.02886`"},
+     {"10.`", "0.04747`", "0.03072`"},
+     {"15.`", "0.05384`", "0.0336`"},
+     {"20.`", "0.05893`", "0.03475`"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxDividers->{
+     "Columns" -> {{False}}, "ColumnsIndexed" -> {}, 
+      "Rows" -> {False, True, {False}, False}, "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[2.0999999999999996`]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   {None, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, 
+    TableHeadings -> {
+     None, {"Energy (MeV)", 
+       "\[Mu]/\[Rho] (\!\(\*SuperscriptBox[\(cm\), \(2\)]\)/g)", 
+       "\!\(\*SubscriptBox[\(\[Mu]\), \(en\)]\)/\[Rho] (\!\(\*SuperscriptBox[\
+\(cm\), \(2\)]\)/g)"}}]]]], "Output",
+ ImageSize->{302, 901},
+ ImageMargins->{{0, 0}, {0, 0}},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellLabel->"Out[2]//TableForm=",
+ CellID->30836679]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XRayData", "[", 
+  RowBox[{"74", ",", 
+   RowBox[{"TableFormed", "\[Rule]", "False"}]}], "]"}]], "Input",
+ CellLabel->"In[3]:=",
+ CellID->123422936],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0.001`", ",", "3683.`", ",", "3671.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0015`", ",", "1643.`", ",", "1632.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0018092`", ",", "1108.`", ",", "1097.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0018092`", ",", "1327.`", ",", "1311.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.00184014`", ",", "1911.`", ",", "1883.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0018716`", ",", "2901.`", ",", "2853.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0018716`", ",", "3170.`", ",", "3116.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.002`", ",", "3922.`", ",", "3853.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.002281`", ",", "2828.`", ",", "2781.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.002281`", ",", "3279.`", ",", "3226.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0024235`", ",", "2833.`", ",", "2786.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0025749`", ",", "2445.`", ",", "2407.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0025749`", ",", "2599.`", ",", "2558.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.00269447`", ",", "2339.`", ",", "2301.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0028196`", ",", "2104.`", ",", "2071.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0028196`", ",", "2194.`", ",", "2160.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.003`", ",", "1902.`", ",", "1873.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.004`", ",", "956.4`", ",", "940.5`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.005`", ",", "553.4`", ",", "542.3`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.006`", ",", "351.4`", ",", "342.8`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.008`", ",", "170.5`", ",", "164.3`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.01`", ",", "96.91`", ",", "92.04`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0102068`", ",", "92.01`", ",", "87.24`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0102068`", ",", "233.4`", ",", "196.6`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0108548`", ",", "198.3`", ",", "168.4`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.011544`", ",", "168.9`", ",", "144.4`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.011544`", ",", "231.2`", ",", "188.9`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0118186`", ",", "226.8`", ",", "179.7`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0120998`", ",", "206.5`", ",", "169.9`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.0120998`", ",", "238.2`", ",", "194.8`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.015`", ",", "138.9`", ",", "117.2`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.02`", ",", "65.73`", ",", "56.97`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.03`", ",", "22.73`", ",", "19.91`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.04`", ",", "10.67`", ",", "9.24`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.05`", ",", "5.949`", ",", "5.05`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.06`", ",", "3.713`", ",", "3.07`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.069525`", ",", "2.552`", ",", "2.049`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.069525`", ",", "11.23`", ",", "3.212`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.08`", ",", "7.81`", ",", "2.879`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.1`", ",", "4.438`", ",", "2.1`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.15`", ",", "1.581`", ",", "0.9378`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.2`", ",", "0.7844`", ",", "0.4913`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.3`", ",", "0.3238`", ",", "0.1973`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.4`", ",", "0.1925`", ",", "0.11`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.5`", ",", "0.1378`", ",", "0.0744`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.6`", ",", "0.1093`", ",", "0.05673`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.8`", ",", "0.08066`", ",", "0.04028`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.`", ",", "0.06618`", ",", "0.03276`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.25`", ",", "0.05577`", ",", "0.02761`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.5`", ",", "0.05`", ",", "0.02484`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2.`", ",", "0.04433`", ",", "0.02256`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"3.`", ",", "0.04075`", ",", "0.02236`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"4.`", ",", "0.04038`", ",", "0.02363`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"5.`", ",", "0.04103`", ",", "0.0251`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"6.`", ",", "0.0421`", ",", "0.02649`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"8.`", ",", "0.04472`", ",", "0.02886`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"10.`", ",", "0.04747`", ",", "0.03072`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"15.`", ",", "0.05384`", ",", "0.0336`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"20.`", ",", "0.05893`", ",", "0.03475`"}], "}"}]}], 
+  "}"}]], "Output",
+ ImageSize->{555, 339},
+ ImageMargins->{{0, 0}, {0, 0}},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellLabel->"Out[3]=",
+ CellID->220340631]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[" ", "FooterCell"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 709},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"TableFormed - Wolfram Mathematica",
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "built" -> "{2015, 11, 16, 18, 12, 36.3156951}", "context" -> 
+    "PhysDataFetch`", "keywords" -> {}, "index" -> True, "label" -> 
+    "PhysDataFetch Paclet Symbol", "language" -> "en", "paclet" -> 
+    "PhysDataFetch", "status" -> "None", "summary" -> 
+    "TableFormed[] TableFormed is an option for PhysDataFetch that specifies \
+whether to give data in TableForm or raw.", "synonyms" -> {}, "title" -> 
+    "TableFormed", "type" -> "Symbol", "uri" -> 
+    "PhysDataFetch/ref/TableFormed"}, "LinkTrails" -> "", 
+  "SearchTextTranslated" -> ""},
+CellContext->"Global`",
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (October 9, 2015)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "10.3 for Microsoft Windows (64-bit) (October 9, 2015)", 
+  StyleDefinitions -> "Default.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[3292, 94, 461, 13, 70, "PrimaryExamplesSection",
+   CellTags->"PrimaryExamplesSection",
+   CellID->371212762]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 14836, 410}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[605, 21, 76, 1, 70, "SymbolColorBar"],
+Cell[684, 24, 192, 5, 70, "LinkTrail"],
+Cell[879, 31, 1895, 42, 70, "AnchorBarGrid",
+ CellID->1],
+Cell[2777, 75, 54, 1, 70, "ObjectName",
+ CellID->1224892054],
+Cell[2834, 78, 433, 12, 70, "Usage",
+ CellID->982511436],
+Cell[CellGroupData[{
+Cell[3292, 94, 461, 13, 70, "PrimaryExamplesSection",
+ CellTags->"PrimaryExamplesSection",
+ CellID->371212762],
+Cell[CellGroupData[{
+Cell[3778, 111, 147, 5, 70, "ExampleSection",
+ CellID->90744461],
+Cell[3928, 118, 122, 3, 70, "Input",
+ CellID->605196085],
+Cell[CellGroupData[{
+Cell[4075, 125, 170, 5, 70, "Input",
+ CellID->74918791],
+Cell[4248, 132, 3671, 98, 936, "Output",
+ CellID->30836679]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7956, 235, 172, 5, 70, "Input",
+ CellID->123422936],
+Cell[8131, 242, 5231, 126, 360, "Output",
+ CellID->220340631]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[13401, 373, 23, 0, 70, "FooterCell"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

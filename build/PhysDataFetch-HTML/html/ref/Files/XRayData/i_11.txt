@@ -1,0 +1,20 @@
+<pre name='i_11_in' id='i_11_in' class='IFT'>XRayData[&quot;polyethylene&quot;][[1 ;; 5]]</pre><?xml version='1.0'?>
+<!DOCTYPE Expression SYSTEM 'http://www.wolfram.com/XML/notebookml1.dtd'>
+<Expression xmlns:mathematica='http://www.wolfram.com/XML/'
+    xmlns='http://www.wolfram.com/XML/'>
+ <Function>
+  <Symbol>Div</Symbol>
+  <Function>
+   <Symbol>List</Symbol>
+   <Function>
+    <Symbol>Rule</Symbol>
+    <String>class</String>
+    <String>IFU</String>
+   </Function>
+  </Function>
+  <Function>
+   <Symbol>List</Symbol>
+   <String>http://wolfram.com/xid/0b6a5uu5os7vd6doh59ajoqgrm-qvu6k</String>
+  </Function>
+ </Function>
+</Expression>

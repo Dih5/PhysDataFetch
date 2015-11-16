@@ -1,0 +1,8 @@
+<table class="EST">
+ <tr>
+  <td>Div[{class -&gt; ExampleText, id -&gt; 44427507}, {Not all elements are available in the PSTAR database... and errors are not handled.}]<a name="433427681" /><a name="2066508" />Div[{class -&gt; IO}, {XMLElement[table, {class -&gt; InCell}, {XMLElement[tr, {}, {XMLElement[td, {class -&gt; lab}, {XMLElement[a, {name -&gt; inoutlink, href -&gt; javascript:input('i_13'), onmouseover -&gt; javascript:return(true);}, {In[1]:=}]}], XMLElement[td, {class -&gt; Input}, {Div[{}, {XMLElement[a, {href -&gt; javascript:input('i_13'), onmouseover -&gt; javascript:return(true);}, {XMLElement[img, {src -&gt; Files/PSTARData/I_14.gif, height -&gt; 16, width -&gt; 169, alt -&gt; Click for copyable input}, {}]}]}], Div[{name -&gt; i_13_out, id -&gt; i_13_out, class -&gt; IFL}, {}]}]}]}], 0, 0, 0, 0, XMLElement[table, {class -&gt; OCell}, {XMLElement[tr, {}, {XMLElement[td, {class -&gt; lab}, {Out[1]=}], XMLElement[td, {class -&gt; Output}, {XMLElement[img, {src -&gt; Files/PSTARData/O_6.gif, height -&gt; 15, width -&gt; 92, alt -&gt; }, {}]}]}]}]}]</td>
+  <td class="CBG"
+      width="5px"
+      onclick="toggle('ES_3')" />
+ </tr>
+</table>

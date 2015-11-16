@@ -1,0 +1,256 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6198,        247]
+NotebookOptionsPosition[      3996,        170]
+NotebookOutlinePosition[      4420,        186]
+CellTagsIndexPosition[      4377,        183]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete"],
+ " | Excised in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Excised"]
+}], "History",
+ CellID->1247902091],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->1122911449],
+
+Cell["Overview", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->686433507],
+
+Cell["PhysDataFetch Package", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->605800465],
+
+Cell["PhysDataFetch`", "Categorization",
+ CellLabel->"Context",
+ CellID->468444828],
+
+Cell["PhysDataFetch/tutorial/PhysDataFetchOverview", "Categorization",
+ CellLabel->"URI"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Synonyms", "SynonymsSection",
+ CellID->1427418553],
+
+Cell["XXXX", "Synonyms",
+ CellID->1251652828]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->1427428552],
+
+Cell["XXXX", "Keywords",
+ CellID->1251852827]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "DetailsSection",
+ CellID->307771771],
+
+Cell["XXXX", "Details",
+ CellLabel->"Lead",
+ CellID->218895918],
+
+Cell["XXXX", "Details",
+ CellLabel->"Developers",
+ CellID->350963985],
+
+Cell["XXXX", "Details",
+ CellLabel->"Authors",
+ CellID->795871300],
+
+Cell["XXXX", "Details",
+ CellLabel->"Feature Name",
+ CellID->199739161],
+
+Cell["XXXX", "Details",
+ CellLabel->"QA",
+ CellID->40625308],
+
+Cell["XXXX", "Details",
+ CellLabel->"DA",
+ CellID->357121918],
+
+Cell["XXXX", "Details",
+ CellLabel->"Docs",
+ CellID->35949532],
+
+Cell["XXXX", "Details",
+ CellLabel->"Features Page Notes",
+ CellID->929432370],
+
+Cell["XXXX", "Details",
+ CellLabel->"Comments",
+ CellID->240026365]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["PhysDataFetch Overview", "TOCDocumentTitle"],
+
+Cell["Some tools to fetch data from some of the NIST databases.", "Text",
+ CellChangeTimes->{{3.6566594759284554`*^9, 3.656659477875923*^9}},
+ CellID->160724201],
+
+Cell["\<\
+IMPORTANT: This package provides an interface to the databases, but note the \
+data you are using belongs to them. Make sure to properly cite them!\
+\>", "Text",
+ CellChangeTimes->{{3.6566594759284554`*^9, 3.6566595311985207`*^9}},
+ CellID->443326268],
+
+Cell[TextData[ButtonBox["Importing data with PhysDataFetch",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:PhysDataFetch/tutorial/Importing data with \
+PhysDataFetch#509267359"]], "TOCChapter"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["ReferencePages/Symbols",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ASTARData"]], "TOCChapter"],
+
+Cell[TextData[ButtonBox["ASTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ASTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["ESTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ESTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["PSTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/PSTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["SeparateBorder",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/SeparateBorder"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["TableFormed",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/TableFormed"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["XRayData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/XRayData"]], "TOCSection"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{700, 709},
+WindowMargins->{{4, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (October 9, 2015)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "TutorialPageStyles.nb", 
+  CharacterEncoding -> "WindowsANSI"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 324, 14, 22, "History",
+ CellID->1247902091],
+Cell[CellGroupData[{
+Cell[907, 38, 68, 1, 27, "CategorizationSection",
+ CellID->1122911449],
+Cell[978, 41, 81, 2, 31, "Categorization",
+ CellID->686433507],
+Cell[1062, 45, 94, 2, 31, "Categorization",
+ CellID->605800465],
+Cell[1159, 49, 83, 2, 31, "Categorization",
+ CellID->468444828],
+Cell[1245, 53, 89, 1, 31, "Categorization"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1371, 59, 56, 1, 27, "SynonymsSection",
+ CellID->1427418553],
+Cell[1430, 62, 45, 1, 70, "Synonyms",
+ CellID->1251652828]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1512, 68, 56, 1, 17, "KeywordsSection",
+ CellID->1427428552],
+Cell[1571, 71, 45, 1, 70, "Keywords",
+ CellID->1251852827]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1653, 77, 53, 1, 17, "DetailsSection",
+ CellID->307771771],
+Cell[1709, 80, 63, 2, 70, "Details",
+ CellID->218895918],
+Cell[1775, 84, 69, 2, 70, "Details",
+ CellID->350963985],
+Cell[1847, 88, 66, 2, 70, "Details",
+ CellID->795871300],
+Cell[1916, 92, 71, 2, 70, "Details",
+ CellID->199739161],
+Cell[1990, 96, 60, 2, 70, "Details",
+ CellID->40625308],
+Cell[2053, 100, 61, 2, 70, "Details",
+ CellID->357121918],
+Cell[2117, 104, 62, 2, 70, "Details",
+ CellID->35949532],
+Cell[2182, 108, 78, 2, 70, "Details",
+ CellID->929432370],
+Cell[2263, 112, 67, 2, 70, "Details",
+ CellID->240026365]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2367, 119, 50, 0, 167, "TOCDocumentTitle"],
+Cell[2420, 121, 161, 2, 21, "Text",
+ CellID->160724201],
+Cell[2584, 125, 261, 5, 36, "Text",
+ CellID->443326268],
+Cell[2848, 132, 191, 4, 25, "TOCChapter"],
+Cell[CellGroupData[{
+Cell[3064, 140, 136, 2, 25, "TOCChapter"],
+Cell[3203, 144, 123, 2, 26, "TOCSection"],
+Cell[3329, 148, 123, 2, 20, "TOCSection"],
+Cell[3455, 152, 123, 2, 20, "TOCSection"],
+Cell[3581, 156, 133, 2, 20, "TOCSection"],
+Cell[3717, 160, 127, 2, 20, "TOCSection"],
+Cell[3847, 164, 121, 2, 20, "TOCSection"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,210 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6951,        200]
+NotebookOptionsPosition[      4425,        131]
+NotebookOutlinePosition[      6342,        181]
+CellTagsIndexPosition[      6299,        178]
+WindowTitle->PhysDataFetch Overview - Wolfram Mathematica
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 0}}],
+
+Cell[TextData[{
+ ButtonBox["Mathematica",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:PhysDataFetch/guide/PhysDataFetch"],
+ StyleBox[" > ", "LinkTrailSeparator"]
+}], "LinkTrail"],
+
+Cell[BoxData[GridBox[{
+   {Cell["PHYS DATA FETCH PACKAGE OVERVIEW", "PacletNameCell"], Cell[TextData[
+    Cell[BoxData[
+     ActionMenuBox[
+      FrameBox["\<\"URL \[RightGuillemet]\"\>",
+       StripOnInput->
+        False], {"\<\"PhysDataFetch/tutorial/PhysDataFetchOverview\"\>":>
+      None, "\<\"Copy Mathematica url\"\>":>
+      Module[{DocumentationSearch`Private`nb$}, 
+       DocumentationSearch`Private`nb$ = NotebookPut[
+          Notebook[{
+            Cell["PhysDataFetch/tutorial/PhysDataFetchOverview"]}, Visible -> 
+           False]]; SelectionMove[
+        DocumentationSearch`Private`nb$, All, Notebook]; 
+       FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+       NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+      Delimiter, "\<\"Copy web url\"\>":>
+      Module[{DocumentationSearch`Private`nb$}, 
+       DocumentationSearch`Private`nb$ = NotebookPut[
+          Notebook[{
+            Cell[
+             BoxData[
+              MakeBoxes[
+               Hyperlink[
+               "http://reference.wolfram.com/mathematica/PhysDataFetch/\
+tutorial/PhysDataFetchOverview.html"], StandardForm]], "Input", 
+             TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+       SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+       FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+       NotebookClose[DocumentationSearch`Private`nb$]; 
+       Null], "\<\"Go to web url\"\>":>FrontEndExecute[{
+        NotebookLocate[{
+          URL[
+           StringJoin[
+           "http://reference.wolfram.com/mathematica/", 
+            "PhysDataFetch/tutorial/PhysDataFetchOverview", ".html"]], 
+          None}]}]},
+      Appearance->None,
+      MenuAppearance->Automatic]],
+     LineSpacing->{1.4, 0}]], "AnchorBar"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1],
+
+Cell[CellGroupData[{
+
+Cell["PhysDataFetch Overview", "TOCDocumentTitle"],
+
+Cell["Some tools to fetch data from some of the NIST databases.", "Text",
+ CellID->160724201],
+
+Cell["\<\
+IMPORTANT: This package provides an interface to the databases, but note the \
+data you are using belongs to them. Make sure to properly cite them!\
+\>", "Text",
+ CellID->443326268],
+
+Cell[TextData[ButtonBox["Importing data with PhysDataFetch",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:PhysDataFetch/tutorial/Importing data with \
+PhysDataFetch#509267359"]], "TOCChapter"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["ReferencePages/Symbols",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ASTARData"]], "TOCChapter"],
+
+Cell[TextData[ButtonBox["ASTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ASTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["ESTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/ESTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["PSTARData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/PSTARData"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["SeparateBorder",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/SeparateBorder"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["TableFormed",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/TableFormed"]], "TOCSection"],
+
+Cell[TextData[ButtonBox["XRayData",
+ BaseStyle->"Link",
+ ButtonData->"paclet:PhysDataFetch/ref/XRayData"]], "TOCSection"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[" ", "FooterCell"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 709},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PhysDataFetch Overview - Wolfram Mathematica",
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "built" -> "{2015, 11, 16, 18, 12, 40.7432066}", "context" -> 
+    "PhysDataFetch`", "keywords" -> {}, "index" -> True, "label" -> 
+    "Phys Data Fetch Package Overview", "language" -> "en", "paclet" -> 
+    "PhysDataFetch Package", "status" -> "None", "summary" -> 
+    "Some tools to fetch data from some of the NIST databases. IMPORTANT: \
+This package provides an interface to the databases, but note the data you \
+are using belongs to them. Make sure to properly cite them! Importing data \
+with PhysDataFetch", "synonyms" -> {}, "title" -> "PhysDataFetch Overview", 
+    "type" -> "Overview", "uri" -> 
+    "PhysDataFetch/tutorial/PhysDataFetchOverview"}, "LinkTrails" -> "", 
+  "SearchTextTranslated" -> ""},
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (October 9, 2015)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["TutorialMoreAboutSection"], 
+    CellGroupingRules -> {"SectionGrouping", 30}], 
+   Cell[
+    StyleData["RelatedTutorialsSection"], 
+    CellGroupingRules -> {"SectionGrouping", 30}], 
+   Cell[
+    StyleData["TutorialRelatedLinksSection"], 
+    CellGroupingRules -> {"SectionGrouping", 30}]}, Visible -> False, 
+  FrontEndVersion -> "10.3 for Microsoft Windows (64-bit) (October 9, 2015)", 
+  StyleDefinitions -> "Default.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[616, 21, 76, 1, 70, "SymbolColorBar"],
+Cell[695, 24, 192, 5, 70, "LinkTrail"],
+Cell[890, 31, 1993, 45, 70, "AnchorBarGrid",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[2908, 80, 50, 0, 70, "TOCDocumentTitle"],
+Cell[2961, 82, 93, 1, 70, "Text",
+ CellID->160724201],
+Cell[3057, 85, 191, 4, 70, "Text",
+ CellID->443326268],
+Cell[3251, 91, 191, 4, 70, "TOCChapter"],
+Cell[CellGroupData[{
+Cell[3467, 99, 136, 2, 70, "TOCChapter"],
+Cell[3606, 103, 123, 2, 70, "TOCSection"],
+Cell[3732, 107, 123, 2, 70, "TOCSection"],
+Cell[3858, 111, 123, 2, 70, "TOCSection"],
+Cell[3984, 115, 133, 2, 70, "TOCSection"],
+Cell[4120, 119, 127, 2, 70, "TOCSection"],
+Cell[4250, 123, 121, 2, 70, "TOCSection"]
+}, Open  ]]
+}, Open  ]],
+Cell[4398, 129, 23, 0, 70, "FooterCell"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

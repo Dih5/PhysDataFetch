@@ -1,0 +1,8 @@
+<table class="EST">
+ <tr>
+  <td>Div[{class -&gt; ExampleText, id -&gt; 109314153}, {Errors are not handled. Make sure your element exists, otherwise you may literally see a bunch of junk.}]<a name="296048666" /><a name="198815341" />Div[{class -&gt; IO}, {XMLElement[table, {class -&gt; InCell}, {XMLElement[tr, {}, {XMLElement[td, {class -&gt; lab}, {XMLElement[a, {name -&gt; inoutlink, href -&gt; javascript:input('i_13'), onmouseover -&gt; javascript:return(true);}, {In[1]:=}]}], XMLElement[td, {class -&gt; Input}, {Div[{}, {XMLElement[a, {href -&gt; javascript:input('i_13'), onmouseover -&gt; javascript:return(true);}, {XMLElement[img, {src -&gt; Files/XRayData/I_14.gif, height -&gt; 16, width -&gt; 134, alt -&gt; Click for copyable input}, {}]}]}], Div[{name -&gt; i_13_out, id -&gt; i_13_out, class -&gt; IFL}, {}]}]}]}], 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, XMLElement[table, {class -&gt; OCell}, {XMLElement[tr, {}, {XMLElement[td, {class -&gt; lab}, {Out[1]=}], XMLElement[td, {class -&gt; Output}, {XMLElement[img, {src -&gt; Files/XRayData/O_6.gif, height -&gt; 713, width -&gt; 469, alt -&gt; }, {}]}]}]}]}]</td>
+  <td class="CBG"
+      width="5px"
+      onclick="toggle('ES_3')" />
+ </tr>
+</table>

@@ -1,0 +1,22 @@
+<pre name='i_5_in' id='i_5_in' class='IFT'>ListLogLogPlot[{XRayData[74][[All, {1, 2}]]}, 
+ AxesLabel -&gt; {&quot;En. (MeV)&quot;, 
+   &quot;&#956;/&#961; (g/\!\(\*SuperscriptBox[\(cm\), \(2\)]\))&quot;}]</pre><?xml version='1.0'?>
+<!DOCTYPE Expression SYSTEM 'http://www.wolfram.com/XML/notebookml1.dtd'>
+<Expression xmlns:mathematica='http://www.wolfram.com/XML/'
+    xmlns='http://www.wolfram.com/XML/'>
+ <Function>
+  <Symbol>Div</Symbol>
+  <Function>
+   <Symbol>List</Symbol>
+   <Function>
+    <Symbol>Rule</Symbol>
+    <String>class</String>
+    <String>IFU</String>
+   </Function>
+  </Function>
+  <Function>
+   <Symbol>List</Symbol>
+   <String>http://wolfram.com/xid/0o65l3gqm3llys3rl0zdzjldhcludbiq-ccvkak</String>
+  </Function>
+ </Function>
+</Expression>
