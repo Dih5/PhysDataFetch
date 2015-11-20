@@ -36,7 +36,7 @@ and 48 Additional Substances of Dosimetric Interest](http://www.nist.gov/pml/dat
 
 A brief overview:
 
-![alt tag](https://raw.github.com/dih5/ErrorPlot/master/demo.png)
+![alt tag](https://raw.github.com/dih5/PhysDataFetch/master/demo.png)
 
 Et voilà, you are watching the CSDA range of electrons and the mass-attenuation coefficient of photons in tungsten (Z=74).
 
