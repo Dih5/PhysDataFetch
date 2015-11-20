@@ -34,18 +34,11 @@ and 48 Additional Substances of Dosimetric Interest](http://www.nist.gov/pml/dat
 
 ## Usage example
 
-A brief overlook:
+A brief overview:
 
-```Mathematica
-Needs["PhysDataFetch`"];
+![alt tag](https://raw.github.com/dih5/ErrorPlot/master/demo.png)
 
-ListLogLogPlot[{ESTARData[74][[All, {1, 5}]]}, AxesLabel -> {"Kin. Energy (MeV)", "CSDA Range (g/cm^2)"}]
-
-ListLogLogPlot[{XRayData[74][[All, {1, 2}]]}, AxesLabel -> {"En. (MeV)", "\[Mu]/\[Rho] (g/cm^2)"}]
-
-```
-
-Et voilà, you'll see the CSDA range of electrons and the mass-attenuation coefficient of photons in tungsten (Z=74).
+Et voilà, you are watching the CSDA range of electrons and the mass-attenuation coefficient of photons in tungsten (Z=74).
 
 ## Installation
 
