@@ -6,7 +6,7 @@
 [![Mathematica 9.0 10.0](https://img.shields.io/badge/Mathematica-9.0_10.0-brightgreen.svg)](#compatibility)
 
 
-Set of tools to fetch data from some databases of physical data.
+Set of tools to fetch data from some databases of physical data using Mathematica.
 
 * [Features](#features)
 * [Usage example](#usage-example)
